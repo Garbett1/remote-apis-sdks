@@ -2,14 +2,14 @@ module github.com/bazelbuild/remote-apis-sdks
 
 go 1.13
 
-replace github.com/bazelbuild/remote-apis => github.com/peterebden/remote-apis v0.0.0-20201218092846-5306a2d66a1b
+//replace github.com/bazelbuild/remote-apis => github.com/peterebden/remote-apis v0.0.0-20201218092846-5306a2d66a1b
 
 require (
 	github.com/aclements/go-gg v0.0.0-20170323211221-abd1f791f5ee // indirect
 	github.com/aclements/go-moremath v0.0.0-20190830160640-d16893ddf098 // indirect
 	github.com/ajstarks/deck v0.0.0-20191009173945-82d717002242 // indirect
 	github.com/ajstarks/svgo v0.0.0-20190826172357-de52242f3d65 // indirect
-	github.com/bazelbuild/remote-apis v0.0.0-20200904140912-1aeb39973178
+	github.com/bazelbuild/remote-apis v0.0.0-20221109204407-3a21deee813d
 	github.com/bradfitz/gomemcache v0.0.0-20190913173617-a41fca850d0b // indirect
 	github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e // indirect
 	github.com/coreos/pkg v0.0.0-20180928190104-399ea9e2e55f // indirect
